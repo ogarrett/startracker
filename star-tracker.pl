@@ -18,9 +18,6 @@ my $json_text = do {
 my $p = decode_json( $json_text );
 my( $gh_user, $apitoken ) = ( $p->{"user"}, $p->{"pass"} );
 
-print STDERR "$gh_user, $apitoken\n";
-exit 0;
-
 =pod
 On each run:
 
